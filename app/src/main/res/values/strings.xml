@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="hint_user">usuario</string>
+    <string name="hint_Contra">Contraseña</string>
+    <string name="Notas">notas</string>
+    <string name="btn_Enterado">enterado</string>
+
+</resources>
