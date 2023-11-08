@@ -18,6 +18,12 @@ public class vista1 extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Button btMainLinkEnterado = findViewById(R.id.btLink1Enterado);
+        btMainLinkEnterado.setOnClickListener(v -> {
+            Intent intent = new Intent (v.getContext(), vista1.class);
+            startActivity(intent);
+        });
+
 
         Button btMainLink2 = findViewById(R.id.btirVista3);
         btMainLink2.setOnClickListener(v -> {

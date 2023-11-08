@@ -12,7 +12,7 @@ public class vista2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vista2);
 
-        Button btMainLink1 = findViewById(R.id.btIniciar);
+        Button btMainLink1 = findViewById(R.id.btLink1Enterado);
         btMainLink1.setOnClickListener(v -> {
             Intent intent = new Intent (v.getContext(), vista1.class);
             startActivity(intent);
